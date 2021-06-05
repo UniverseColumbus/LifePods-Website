@@ -1,0 +1,26 @@
+* {
+	padding: none;
+	margin: none;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.contact-style{
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+}
+
+.contact-style h1{
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	color: #16c79a;
+	margin-top: 100px;
+}
+
+.contact-style p{
+	margin-top: 20px;
+}
