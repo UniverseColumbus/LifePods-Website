@@ -5,33 +5,84 @@
     margin-block-end: 0em;
 }
 
-.whitepaper-style{
-	height: 90vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.business-style{
+	min-height: 100vh;
 	background-color: rgba(177, 177, 177, 0.20);
 	letter-spacing: 2px;
 	line-height: 1.5;
 }
 
-.whitepaper-style h1{
-	font-family: 'Raleway', sans-serif;
+.business-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.business-style h1{
+	font-family: 'Staatliches', sans-serif;
+	font-size: 48px;
 	letter-spacing: 2px;
 	color: #16c79a;
 	margin-top: 100px;
+}
+
+.whitepaper,
+.partners{
+	max-width: 700px;
+}
+
+.whitepaper h2, 
+.partners h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .whitepaper-picture{
 	background-size: contain;
 	box-sizing: border-box;
 	background-repeat: no-repeat;
-	width: 20%;
+	width: 40%;
 	height: auto;
-	margin-top: 30px;
 }
 
-.whitepaper-style p{
-	margin-top: 20px;
-	font-family: 'Raleway', sans-serif;
+.partners img{
+	width: auto;
+	height: 70px;
+	background-repeat: no-repeat;
+	margin: 40px;
+	display: inline-block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

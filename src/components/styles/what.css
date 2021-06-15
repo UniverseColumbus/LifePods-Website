@@ -6,7 +6,7 @@
 }
 
 .what-style{
-	height: 100vh;
+	min-height: 80vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -14,10 +14,17 @@
 }
 
 .what-style h1{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 48px;
 	letter-spacing: 2px;
 	color: #16c79a;
 	margin-top: 100px;
+}
+
+.what-style h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	letter-spacing: 2px;
 }
 
 p.what-p1{
@@ -26,7 +33,7 @@ p.what-p1{
 	color: rgba(0,0,0,.5);
 	font-weight: 600;
 	margin-top: 30px;
-	width: 70ch;
+	width: 77ch;
 	letter-spacing: 0.4px;
 	line-height: 1.6em;
 }
@@ -37,7 +44,7 @@ p.what-p2{
 	color: rgba(0,0,0,.5);
 	font-weight: 600;
 	margin-top: 20px;
-	width: 70ch;
+	width: 77ch;
 	letter-spacing: 0.4px;
 	line-height: 1.6em;
 }
@@ -64,18 +71,9 @@ p.what-p2{
 	display: block;
 }
 
-.partners{
-	margin-top: 30px;
-	box-sizing: border-box;
-}
 
-.partners img{
-	width: auto;
-	height: 70px;
-	background-repeat: no-repeat;
-	margin-left: 40px;
-	display: inline-block;
-}
+
+
 
 
 

@@ -6,10 +6,11 @@
 }
 
 h1.home-heading {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 48px;
 	color: white;
-	letter-spacing: 2px;
-	line-height: 1.5;
+	letter-spacing: 4px;
+	line-height: 1.2;
 	width: 30ch;
 	margin-top: 70px;
 }
@@ -20,6 +21,7 @@ h1.home-heading {
 	font-size: 18px;
 	width: 88ch;
 	color: white;
+	margin-top: 10px;
 }
 
 .background.box{
@@ -35,7 +37,7 @@ h1.home-heading {
 	background-position-x: 0%, 50%;
 	background-position-y: 0%, 50%;
 	background-size: auto, cover;
-	height: 100vh;
+	min-height: 100vh;
 
 	border-bottom-color: rgb(0, 0, 0);
 	border-bottom-style: none;
@@ -59,7 +61,7 @@ h1.home-heading {
 }
 
 .form-button{
-	margin-top: 20px;
+	margin-top: 30px;
 	background-color: rgba(22, 199, 154, 0.77);
     border-color: #16c79a;
     color: #fff;

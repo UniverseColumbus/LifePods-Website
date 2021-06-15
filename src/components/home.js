@@ -4,6 +4,7 @@ import './styles/home.css';
 export default class Home extends Component{
 	render(){
 		return(
+			
 			<div className="background box" id="home">
 				
 				<h1 className="home-heading">Engaging Young Alumni Through Peer Mentorship</h1>
@@ -18,6 +19,7 @@ export default class Home extends Component{
 				<a href="https://forms.gle/Fy7FdcU352zRfNTH9" target="_blank"><button className="form-button">FILL OUT THE INTEREST FORM</button></a>
 
 			</div>
+
 		);
 	}
 }

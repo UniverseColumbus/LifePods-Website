@@ -4,6 +4,7 @@ import './styles/team.css';
 export default class Team extends Component{
 	render(){
 		return(
+			
 			<div className="team-style" id="team">
 				<h1>The Team</h1>
 
@@ -33,6 +34,8 @@ export default class Team extends Component{
 					info="Computer Information Systems @ Okanagan College '21"/>
 				</div>
 			</div>
+			
+			
 		);
 	}
 }

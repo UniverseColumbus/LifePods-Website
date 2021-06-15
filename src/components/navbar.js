@@ -33,11 +33,11 @@ export default class Navbar extends Component{
 			<div className="navbox1" id="myNav">
 				<img id="logo" className="logo1" src="https://storage.googleapis.com/graphic-adapter-295701.appspot.com/logo.png"/>
 				<ul className="navbar">
-					<li><a href="#home" style={{paddingRight: 30}}>Home</a></li>
-					<li><a href="#what" style={{paddingRight: 30}}>What We Do</a></li>
+					<li><a href="#home" style={{paddingRight: 40}}>Home</a></li>
+					<li><a href="#what" style={{paddingRight: 40}}>What We Do</a></li>
 					<li><a href="#team">The Team</a></li>
-					<li><a href="#whitepaper" style={{paddingLeft: 30}}>Whitepaper</a></li>
-					<li><a href="#contact" style={{paddingLeft: 30}}>Contact Us</a></li>
+					<li><a href="#whitepaper" style={{paddingLeft: 40}}>Business</a></li>
+					<li><a href="#contact" style={{paddingLeft: 40}}>Contact Us</a></li>
 				</ul>
 
 			</div>
