@@ -1,0 +1,115 @@
+* {
+	padding: none;
+	margin: none;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0em;
+    padding-inline-end: 0em;
+}
+
+.navbar li {
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	opacity: 0.5;
+	list-style: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar a:visited{
+	color: white;
+}
+
+.navbar li:hover {
+	opacity: 0.8;
+}
+
+.navbox1 {
+	position: absolute;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbox2{
+	background-color: black;
+	position: fixed;
+	padding-bottom: 10px;
+
+}
+
+.logo1{
+	width: 12.375rem;
+	height: auto;
+	box-sizing: border-box;
+	background-size: contain;
+	background-repeat: no-repeat;
+	flex-shrink: 0;
+	text-align: center;
+}
+
+.logo2{
+	width: 0rem;
+	height: 0rem;
+}
+
+.navbar {
+	width: 100vw;
+	text-decoration: none;
+	flex-grow: 1;
+	padding-left: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+#myNav{
+	top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

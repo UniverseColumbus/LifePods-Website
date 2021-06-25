@@ -1,5 +1,5 @@
+// import './styles/home.css';
 import React, {Component} from 'react';
-import './styles/home.css';
 import Navbar from './navbar.js';
 
 
@@ -7,7 +7,7 @@ export default class Home extends Component{
 	
 	componentDidMount(){
 		let image = document.createElement('img')
-		image.src = "https://storage.googleapis.com/graphic-adapter-295701.appspot.com/bg-small2.jpg"
+		image.src = "https://storage.googleapis.com/graphic-adapter-295701.appspot.com/bg.jpg"
 		
 		image.onload = function(){
 			document.getElementsByClassName("bg")[0].style.backgroundImage = `linear-gradient(to top, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url(${this.src})`;

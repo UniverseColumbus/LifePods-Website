@@ -1,6 +1,6 @@
+// import './styles/whitepaper.css';
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
-import './styles/whitepaper.css';
+
 
 export default class Whitepaper extends Component{
 	render(){

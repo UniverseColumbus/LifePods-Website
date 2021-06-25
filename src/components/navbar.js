@@ -1,8 +1,6 @@
+// import './styles/navbar.css';
 import React, {Component} from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import './styles/navbar.css';
-import What from './what.js';
-import {useRef, useLayoutEffect} from 'react';
+
 let lastScrollY = 0;
 
 

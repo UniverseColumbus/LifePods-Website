@@ -1,5 +1,5 @@
+// import './styles/what.css';
 import React, {Component} from 'react';
-import './styles/what.css';
 
 export default class What extends Component{
 	render(){

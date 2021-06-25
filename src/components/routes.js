@@ -1,3 +1,4 @@
+// import './styles/routes.css';
 import React, {Component} from 'react';
 import Home from './home.js';
 import What from './what.js';
@@ -6,7 +7,6 @@ import Contact from './contact.js';
 import Whitepaper from './whitepaper.js';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
-import './styles/routes.css';
 
 export default class Routes extends Component {
   
