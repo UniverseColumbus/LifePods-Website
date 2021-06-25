@@ -6,10 +6,11 @@
 }
 
 .business-style{
-	min-height: 100vh;
-	background-color: rgba(177, 177, 177, 0.20);
 	letter-spacing: 2px;
 	line-height: 1.5;
+	padding: 100px 0px 100px 0px;
+	background-color: white;
+	background-color: rgba(177, 177, 177, 0.20);
 }
 
 .business-box{
@@ -23,7 +24,6 @@
 	font-size: 48px;
 	letter-spacing: 2px;
 	color: #16c79a;
-	margin-top: 100px;
 }
 
 .whitepaper,
