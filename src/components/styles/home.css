@@ -32,7 +32,7 @@ h1.home-heading {
 .home-box{
 	height: 100vh;
 	width: 100vw;
-	animation: example 4s;
+	animation: example 2s ease-in;
 	animation-iteration-count: 1;
 	position: absolute;
 }
@@ -48,6 +48,7 @@ h1.home-heading {
 	background-position-x: 0%, 50%;
 	background-position-y: 0%, 50%;
 	background-size: auto, cover;
+	background-color: black;
 	min-height: 100vh;
 
 	border-bottom-color: rgb(0, 0, 0);
